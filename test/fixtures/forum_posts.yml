@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: forum_posts
+#
+#  id              :bigint           not null, primary key
+#  body            :text
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#  forum_thread_id :integer
+#  user_id         :integer
+#
+
+one:
+  user_id: 1
+  forum_thread_id: 1
+  body: MyText
+
+two:
+  user_id: 1
+  forum_thread_id: 1
+  body: MyText
